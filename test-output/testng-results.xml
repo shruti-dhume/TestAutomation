@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62654" started-at="2019-11-28T14:00:45Z" finished-at="2019-11-28T14:01:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="62654" started-at="2019-11-28T14:00:45Z" finished-at="2019-11-28T14:01:48Z">
+      <class name="com.orangeHRM.tests.NewTest">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="Launch" is-config="true" duration-ms="7735" started-at="2019-11-28T19:30:45Z" description="This method is used for launching the browser" finished-at="2019-11-28T19:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="setupTest" is-config="true" duration-ms="1" started-at="2019-11-28T19:30:53Z" finished-at="2019-11-28T19:30:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6fc6f14e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="Login" duration-ms="3442" started-at="2019-11-28T19:30:53Z" description="This method is used for logging into the browser" finished-at="2019-11-28T19:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="setupTest" is-config="true" duration-ms="0" started-at="2019-11-28T19:30:57Z" finished-at="2019-11-28T19:30:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6fc6f14e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="VerifyPageTitle()[pri:2, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="VerifyPageTitle" duration-ms="440" started-at="2019-11-28T19:30:57Z" description="This method is used for verifying title" finished-at="2019-11-28T19:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPageTitle -->
+        <test-method status="PASS" signature="VerifyEmployeeInformation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="VerifyEmployeeInformation" duration-ms="15892" started-at="2019-11-28T19:30:58Z" description="This method is used for the results of employee search" data-provider="getTestData" finished-at="2019-11-28T19:31:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linda  Anderson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Full-Time Permanent]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmployeeInformation -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="setupTest" is-config="true" duration-ms="0" started-at="2019-11-28T19:30:58Z" finished-at="2019-11-28T19:30:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6fc6f14e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="setupTest" is-config="true" duration-ms="0" started-at="2019-11-28T19:31:14Z" finished-at="2019-11-28T19:31:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6fc6f14e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="VerifyEmployeeInformation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="VerifyEmployeeInformation" duration-ms="15999" started-at="2019-11-28T19:31:14Z" description="This method is used for the results of employee search" data-provider="getTestData" finished-at="2019-11-28T19:31:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fiona Grace]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0070]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Part-Time Contract]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmployeeInformation -->
+        <test-method status="PASS" signature="VerifyEmployeeInformation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="VerifyEmployeeInformation" duration-ms="16282" started-at="2019-11-28T19:31:30Z" description="This method is used for the results of employee search" data-provider="getTestData" finished-at="2019-11-28T19:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Russel Hamilton]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0008]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Full-TimeProbation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmployeeInformation -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="setupTest" is-config="true" duration-ms="0" started-at="2019-11-28T19:31:30Z" finished-at="2019-11-28T19:31:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6fc6f14e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="Closedown()[pri:0, instance:com.orangeHRM.tests.NewTest@46d56d67]" name="Closedown" is-config="true" duration-ms="1966" started-at="2019-11-28T19:31:46Z" finished-at="2019-11-28T19:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closedown -->
+      </class> <!-- com.orangeHRM.tests.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

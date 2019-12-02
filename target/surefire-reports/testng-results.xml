@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.orangeHRM.tests.NewTest" duration-ms="12351" started-at="2019-11-26T09:12:34Z" finished-at="2019-11-26T09:12:47Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="12351" started-at="2019-11-26T09:12:34Z" finished-at="2019-11-26T09:12:47Z">
+      <class name="com.orangeHRM.tests.NewTest">
+        <test-method status="PASS" signature="Launch()[pri:1, instance:com.orangeHRM.tests.NewTest@17c68925]" name="Launch" duration-ms="7063" started-at="2019-11-26T14:42:34Z" description="This method is used for launching the browser" finished-at="2019-11-26T14:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="Login()[pri:2, instance:com.orangeHRM.tests.NewTest@17c68925]" name="Login" duration-ms="3023" started-at="2019-11-26T14:42:42Z" description="This method is used for logging into the browser" finished-at="2019-11-26T14:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="VerifyPageTitle()[pri:3, instance:com.orangeHRM.tests.NewTest@17c68925]" name="VerifyPageTitle" duration-ms="556" started-at="2019-11-26T14:42:45Z" description="This method is used for verifying title" finished-at="2019-11-26T14:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPageTitle -->
+        <test-method status="PASS" signature="Closedown()[pri:4, instance:com.orangeHRM.tests.NewTest@17c68925]" name="Closedown" duration-ms="1571" started-at="2019-11-26T14:42:45Z" description="This method is used for closing the browser" finished-at="2019-11-26T14:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closedown -->
+      </class> <!-- com.orangeHRM.tests.NewTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.orangeHRM.tests.NewTest -->
+</testng-results>
