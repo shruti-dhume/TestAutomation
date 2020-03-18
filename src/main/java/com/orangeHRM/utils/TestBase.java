@@ -1,11 +1,12 @@
 package com.orangeHRM.utils;
 
+
+
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestContext;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import com.orangeHRM.pages.Common;
+
 
 
 
@@ -13,24 +14,47 @@ import org.testng.annotations.BeforeMethod;
 
 public class TestBase {
 	
-	public static WebDriver driver;
+	
 	public static ITestContext context;
+	//public static Map<String, WebDriver> driverInstances = new HashMap<>();
+	Common common = null;
+	public static WebDriver driver_TestBase;
 	
 	
-	@BeforeClass(description = "This method is used for launching the browser")
-	  public static void Launch()  {
-		System.out.println("Initializing Browser");
-		System.setProperty("webdriver.chrome.driver", "D:\\Setup\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
+	
+	  //public void Launch()  {
 		
-		
-	}
+		 // WebDriver driver = driverInstances.get(context.getName());
+//		
+//		 if (driver_TestBase == null) {
+//			    
+//			    driver_TestBase = com.orangeHRM.driverinstance.DriverInstance.getWebDriver();
+//				getCommon(context).launchUrl();
+//				driver_TestBase.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
+//		 }
+//		 else
+//			 System.out.println("driver initialized");
+//			 //driverInstances.put(context.getName(), driver);
+//			 
+//		 	
+//	}
+//
+//	  public WebDriver getdriver(ITestContext context)  {
+//		  
+//		  
+//			if (context.getName() == null) {
+//				System.out.println("Unable to connect with remote device");
+//			}
+//		
+//			return driver_TestBase;
+//		}
+	  
+	  
 	
-	@BeforeMethod
 	public void setupTest(ITestContext iTestContext)
 	{
-		context = setContext(iTestContext, driver);
+		context = setContext(iTestContext, driver_TestBase);
+		
 	}
 
     public static ITestContext setContext(ITestContext iTestContext, WebDriver driver) {
@@ -38,11 +62,21 @@ public class TestBase {
          return iTestContext;
         }
     
-    @AfterClass
-    public void Closedown()
+
+    @Test(description = "This method is used for killing all the browser sessions")
+    public static void Closedown()
     {
-  	  driver.close();
-  	  driver.quit();
+  	  //driver.close();
+  	  //driver.quit();
   	  
     }
-}
+    
+//    public Common getCommon(ITestContext context) {
+//		if (common == null) {
+//			common = new Common(driver_TestBase);
+//			setupTest(context);
+//		}
+//		return common;
+//	}
+
+	  }

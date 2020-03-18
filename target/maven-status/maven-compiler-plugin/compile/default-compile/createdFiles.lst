@@ -1,1 +1,8 @@
+com\orangeHRM\utils\InputData.class
+com\orangeHRM\pages\Common.class
 com\orangeHRM\pages\LoginPage.class
+com\orangeHRM\driverinstance\DriverInstance.class
+com\orangeHRM\utils\ScreenshotListener.class
+com\orangeHRM\pages\EmployeesPage.class
+com\orangeHRM\utils\AllureScreenshotListener.class
+com\orangeHRM\utils\TestBase.class

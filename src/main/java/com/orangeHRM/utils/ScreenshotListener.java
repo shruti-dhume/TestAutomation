@@ -18,9 +18,9 @@ import org.testng.annotations.ITestAnnotation;
 
 
 public class ScreenshotListener implements ITestListener,IRetryAnalyzer,IAnnotationTransformer{
-	WebDriver driver=null;
+	//WebDriver driver=null;
 	int counter = 0;
-	int Limit = 4;
+	int Limit = 3;
 	
 	public static void takesnapshot(WebDriver driver, File FileName) throws IOException
 	{

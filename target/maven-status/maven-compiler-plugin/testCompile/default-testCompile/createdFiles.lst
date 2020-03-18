@@ -1,0 +1,5 @@
+com\orangeHRM\tests\NewTest.class
+com\orangeHRM\stepDefinitions\Hook.class
+com\orangeHRM\stepDefinitions\searchForEmployeesStepDefinition.class
+com\orangeHRM\testRunner\TestRunner.class
+com\orangeHRM\stepDefinitions\loginFeatureStepDefinition.class
